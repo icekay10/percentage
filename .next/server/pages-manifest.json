@@ -1,0 +1,10 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/tip-calculator": "pages/tip-calculator.js",
+  "/percentage-calculator": "pages/percentage-calculator.js",
+  "/discount-calculator": "pages/discount-calculator.js",
+  "/contact": "pages/contact.js",
+  "/about": "pages/about.js"
+}
