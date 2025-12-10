@@ -398,12 +398,12 @@ const HomePage = () => {
               </Link>
             </div>
             <div className={styles.keywordBadges}>
-              <span className={styles.badge}>Discount Calculator Online</span>
-              <span className={styles.badge}>Restaurant Tip Calculator</span>
-              <span className={styles.badge}>Percentage Calculator Free</span>
-              <span className={styles.badge}>Shopping Discount Tool</span>
-              <span className={styles.badge}>Free Tip Calculator</span>
-              <span className={styles.badge}>Online Percentage Tool</span>
+              <span className={styles.badge}></span>
+              <span className={styles.badge}></span>
+              <span className={styles.badge}></span>
+              <span className={styles.badge}></span>
+              <span className={styles.badge}></span>
+              <span className={styles.badge}></span>
             </div>
           </div>
         </section>
@@ -470,76 +470,14 @@ const HomePage = () => {
           </div>
           
           {/* Internal linking with H3 for better SEO */}
-          <div className={styles.calculatorTypes}>
-            <h3 className={styles.typesTitle}>Popular Calculator Tools:</h3>
-            <div className={styles.typesGrid}>
-              <Link href="/discount-calculator" className={styles.typeCard}>
-                <h4>Discount Calculator</h4>
-                <p>Calculate sale prices & savings</p>
-              </Link>
-              <Link href="/tip-calculator" className={styles.typeCard}>
-                <h4>Tip Calculator</h4>
-                <p>Restaurant & service tips</p>
-              </Link>
-              <Link href="/percentage-calculator" className={styles.typeCard}>
-                <h4>Percentage Calculator</h4>
-                <p>All percentage calculations</p>
-              </Link>
-              <Link href="/percentage-change" className={styles.typeCard}>
-                <h4>Percentage Change</h4>
-                <p>Increase/decrease calculations</p>
-              </Link>
-            </div>
-          </div>
+          
         </section>
 
         {/* FAQ Section (semantic HTML for SEO) */}
-        <section className={styles.faqSection}>
-          <div className={styles.sectionHeader}>
-            <h2 className={styles.sectionTitle}>Frequently Asked Questions</h2>
-            <p className={styles.sectionDescription}>Get answers to common questions about our calculators</p>
-          </div>
-          <div className={styles.faqGrid}>
-            <div className={styles.faqItem}>
-              <h3>Is this discount calculator really free?</h3>
-              <p>Yes, 100% free with no hidden fees. No registration, no subscription, and no premium tiers.</p>
-            </div>
-            <div className={styles.faqItem}>
-              <h3>How accurate is the tip calculator?</h3>
-              <p>Our tip calculator provides precise calculations down to the cent, using standard mathematical formulas.</p>
-            </div>
-            <div className={styles.faqItem}>
-              <h3>Can I use this on my phone?</h3>
-              <p>Yes, our calculators are fully responsive and optimized for mobile devices, tablets, and desktop.</p>
-            </div>
-            <div className={styles.faqItem}>
-              <h3>Do you store my calculation data?</h3>
-              <p>No, we don't collect or store any of your data. All calculations happen locally in your browser.</p>
-            </div>
-          </div>
-        </section>
+        
 
         {/* Final CTA with strong action-oriented language */}
-        <section className={styles.ctaSection}>
-          <div className={styles.ctaContainer}>
-            <h2 className={styles.ctaTitle}>Start Calculating Discounts, Tips & Percentages Now!</h2>
-            <p className={styles.ctaDescription}>
-              Join 500,000+ users who trust our calculators for accurate shopping discounts, restaurant tips, and financial percentage calculations. Get instant results without any cost or commitment.
-            </p>
-            <div className={styles.ctaButtons}>
-              <Link href="/discount-calculator" className={styles.ctaButtonLarge}>
-                Calculate Discounts
-              </Link>
-              <Link href="/tip-calculator" className={styles.ctaButtonSecondary}>
-                Calculate Tips
-              </Link>
-              <Link href="/percentage-calculator" className={styles.ctaButtonSecondary}>
-                Calculate Percentages
-              </Link>
-            </div>
-            <p className={styles.ctaNote}>No registration • No tracking • 100% Free • Works on All Devices</p>
-          </div>
-        </section>
+        
       </div>
     </>
   );
