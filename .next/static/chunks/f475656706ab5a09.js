@@ -1,0 +1,8 @@
+__turbopack_load_page_chunks__("/percentage-calculator", [
+  "static/chunks/d089e464093e0af1.js",
+  "static/chunks/96022b30fcdd0eed.js",
+  "static/chunks/03758096bef76fb4.js",
+  "static/chunks/5803c78c75921cc6.js",
+  "static/chunks/d79812366184cf92.css",
+  "static/chunks/turbopack-aee959409621e84a.js"
+])

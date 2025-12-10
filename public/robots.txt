@@ -1,3 +1,9 @@
-# https://www.robotstxt.org/robotstxt.html
+# *
 User-agent: *
-Disallow:
+Allow: /
+
+# Host
+Host: https://www.percentdiscountandtip.com
+
+# Sitemaps
+Sitemap: https://www.percentdiscountandtip.com/sitemap.xml

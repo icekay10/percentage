@@ -7,12 +7,12 @@
   "pages": {
     "/advanced-uses-of-percentage-calculators": [
       "static/chunks/851bc338b6024f6d.js",
-      "static/chunks/9572eb87d39ab958.js",
-      "static/chunks/0b7c79a949480d84.js",
+      "static/chunks/96022b30fcdd0eed.js",
+      "static/chunks/03758096bef76fb4.js",
       "static/chunks/1e288151ed6624b3.js",
-      "static/chunks/ad3dd1ea0b0a97b9.js",
+      "static/chunks/5803c78c75921cc6.js",
       "static/chunks/ff784b41b604f6d6.css",
-      "static/chunks/turbopack-c053ef47b117e94c.js"
+      "static/chunks/turbopack-cf21ad272441bb6f.js"
     ]
   },
   "ampFirstPages": []
