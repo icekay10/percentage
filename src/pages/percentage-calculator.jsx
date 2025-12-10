@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Head from 'next/head';
 import styles from './PercentageCalculator.module.css';

@@ -1,0 +1,595 @@
+/* TipGuide.module.css */
+.guideContainer {
+  background-color: #00001c;
+  color: #ffffff;
+  min-height: 100vh;
+  padding: 120px 20px 80px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  line-height: 1.6;
+}
+
+.guideCard {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 24px;
+  backdrop-filter: blur(20px);
+  overflow: hidden;
+  opacity: 1;
+  visibility: visible;
+}
+
+.guideHeader {
+  padding: 60px 40px 40px;
+  text-align: center;
+  background: linear-gradient(135deg, rgba(46, 125, 50, 0.15) 0%, rgba(27, 94, 32, 0.15) 100%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.guideTitle {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  background: linear-gradient(135deg, #7f4caf 0%, #542e7d 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.guideSubtitle {
+  font-size: 1.3rem;
+  opacity: 0.9;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.guideContent {
+  padding: 40px;
+}
+
+.guideSection {
+  margin-bottom: 80px;
+}
+
+.guideSection:last-child {
+  margin-bottom: 0;
+}
+
+.sectionHeading {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #ffffff;
+  opacity: 1;
+  position: relative;
+}
+
+.sectionHeading::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(135deg, #914caf 0%, #752e7d 100%);
+  border-radius: 2px;
+}
+
+.sectionText {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  opacity: 0.9;
+  margin-bottom: 40px;
+}
+
+.featuresGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  margin-top: 30px;
+}
+
+.featureCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 30px 25px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  transition: all 0.3s ease;
+  opacity: 1;
+  visibility: visible;
+}
+
+.featureCard:hover {
+  background: rgba(255, 255, 255, 0.07);
+  border-color: rgba(76, 175, 80, 0.3);
+  transform: translateY(-5px);
+}
+
+.featureIcon {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.featureContent {
+  flex: 1;
+}
+
+.featureTitle {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.featureDescription {
+  font-size: 1rem;
+  line-height: 1.6;
+  opacity: 0.9;
+  margin: 0;
+}
+
+.tippingTiers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.tierCard {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.tierCard:hover {
+  transform: translateY(-5px);
+  border-color: rgba(76, 175, 80, 0.3);
+}
+
+.tierHeader {
+  padding: 25px;
+  text-align: center;
+  background: linear-gradient(135deg, rgba(76, 175, 80, 0.1) 0%, rgba(46, 125, 50, 0.1) 100%);
+}
+
+.tierPercentage {
+  font-size: 2.5rem;
+  font-weight: 700;
+  display: block;
+  background: linear-gradient(135deg, #824caf 0%, #712e7d 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 10px;
+}
+
+.tierTitle {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0;
+}
+
+.tierContent {
+  padding: 25px;
+}
+
+.tierDescription {
+  font-size: 1rem;
+  line-height: 1.6;
+  opacity: 0.9;
+  margin-bottom: 20px;
+}
+
+.tierExample {
+  padding: 15px;
+  background: rgba(76, 175, 80, 0.1);
+  border-radius: 8px;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.calculationMethods {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.methodCard {
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  transition: all 0.3s ease;
+}
+
+.methodCard:hover {
+  background: rgba(255, 255, 255, 0.07);
+  border-color: rgba(76, 175, 80, 0.3);
+  transform: translateY(-3px);
+}
+
+.methodTitle {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.methodSteps {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+
+.step {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.stepNumber {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: linear-gradient(135deg, #934caf 0%, #692e7d 100%);
+  border-radius: 50%;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.stepText {
+  font-size: 1rem;
+  line-height: 1.6;
+  opacity: 0.9;
+  margin: 0;
+  padding-top: 5px;
+}
+
+.methodExample {
+  padding: 15px;
+  background: rgba(76, 175, 80, 0.1);
+  border-radius: 8px;
+  font-size: 1.05rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.referenceTable {
+  margin: 25px 0;
+}
+
+.tableRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.tableRow:last-child {
+  border-bottom: none;
+}
+
+.tableCell {
+  font-size: 1.1rem;
+}
+
+.mistakesList {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.mistakeItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 25px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  transition: all 0.3s ease;
+}
+
+.mistakeItem:hover {
+  background: rgba(255, 255, 255, 0.07);
+  border-color: rgba(220, 53, 69, 0.3);
+  transform: translateX(5px);
+}
+
+.mistakeIcon {
+  font-size: 2.5rem;
+  flex-shrink: 0;
+}
+
+.mistakeContent {
+  flex: 1;
+}
+
+.mistakeTitle {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.mistakeDescription {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  opacity: 0.9;
+  margin: 0;
+}
+
+.etiquetteGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.etiquetteCard {
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  transition: all 0.3s ease;
+}
+
+.etiquetteCard:hover {
+  background: rgba(255, 255, 255, 0.07);
+  border-color: rgba(76, 175, 80, 0.3);
+  transform: translateY(-3px);
+}
+
+.etiquetteTitle {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.etiquetteList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.etiquetteList li {
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  font-size: 1rem;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+.etiquetteList li:last-child {
+  border-bottom: none;
+}
+
+.etiquetteList li strong {
+  color: #a84caf;
+}
+
+.valuesList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.valueItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 25px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  transition: all 0.3s ease;
+  opacity: 1;
+  visibility: visible;
+}
+
+.valueItem:hover {
+  background: rgba(255, 255, 255, 0.07);
+  border-color: rgba(76, 175, 80, 0.3);
+  transform: translateX(5px);
+}
+
+.valueNumber {
+  font-size: 1.5rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #a74caf 0%, #6b2e7d 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  flex-shrink: 0;
+  min-width: 40px;
+}
+
+.valueContent {
+  flex: 1;
+}
+
+.valueTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.valueDescription {
+  font-size: 1rem;
+  line-height: 1.6;
+  opacity: 0.9;
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .guideContainer {
+    padding: 100px 15px 60px;
+  }
+
+  .guideHeader {
+    padding: 40px 20px 30px;
+  }
+
+  .guideTitle {
+    font-size: 2.2rem;
+  }
+
+  .guideSubtitle {
+    font-size: 1.1rem;
+  }
+
+  .guideContent {
+    padding: 30px 20px;
+  }
+
+  .guideSection {
+    margin-bottom: 60px;
+  }
+
+  .sectionHeading {
+    font-size: 1.8rem;
+  }
+
+  .sectionText {
+    font-size: 1.05rem;
+  }
+
+  .featuresGrid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .featureCard {
+    padding: 25px 20px;
+  }
+
+  .tippingTiers {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .calculationMethods {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .methodCard {
+    padding: 25px;
+  }
+
+  .mistakeItem {
+    flex-direction: column;
+    text-align: center;
+    padding: 25px;
+    gap: 20px;
+  }
+
+  .mistakeIcon {
+    font-size: 2rem;
+  }
+
+  .etiquetteGrid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .valueItem {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .valueItem:hover {
+    transform: translateY(-2px);
+  }
+}
+
+@media (max-width: 480px) {
+  .guideContainer {
+    padding: 90px 10px 40px;
+  }
+
+  .guideHeader {
+    padding: 30px 15px 25px;
+  }
+
+  .guideTitle {
+    font-size: 1.9rem;
+  }
+
+  .guideSubtitle {
+    font-size: 1rem;
+  }
+
+  .guideContent {
+    padding: 25px 15px;
+  }
+
+  .guideSection {
+    margin-bottom: 50px;
+  }
+
+  .sectionHeading {
+    font-size: 1.6rem;
+  }
+
+  .featureCard {
+    padding: 20px 15px;
+  }
+
+  .methodCard {
+    padding: 20px;
+  }
+
+  .mistakeItem {
+    padding: 20px;
+  }
+
+  .etiquetteCard {
+    padding: 20px;
+  }
+
+  .valueItem {
+    padding: 18px 15px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .guideContainer {
+    padding: 110px 20px 70px;
+  }
+
+  .guideCard {
+    max-width: 950px;
+  }
+
+  .guideHeader {
+    padding: 50px 30px 35px;
+  }
+
+  .guideContent {
+    padding: 35px 30px;
+  }
+}

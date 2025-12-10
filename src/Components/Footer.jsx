@@ -33,6 +33,31 @@ const Footer = () => {
                   Tip Calculator
                 </Link>
               </li>
+              <li className={styles.footerLinkItem}>
+                <Link href="/tip-calculators-stress-free-dining-and-service-payments" className={styles.footerLink}>
+                  Tip Calculators: Stress-Free Dining and Service Payments
+                </Link>
+              </li>
+              <li className={styles.footerLinkItem}>
+                <Link href="/discount-calculators-save-more-while-shopping" className={styles.footerLink}>
+                  Discount Calculators: Save More While Shopping
+                </Link>
+              </li>
+              <li className={styles.footerLinkItem}>
+                <Link href="/percentage-calculators-beyond-discounts-and-tips" className={styles.footerLink}>
+                  Percentage Calculators Beyond Discounts and Tips
+                </Link>
+              </li>
+              <li className={styles.footerLinkItem}>
+                <Link href="/percentage-calculators-beyond-discounts-and-tips" className={styles.footerLink}>
+                  Percentage Calculators Beyond Discounts and Tips
+                </Link>
+              </li>
+              <li className={styles.footerLinkItem}>
+                <Link href="/advanced-uses-of-percentage-calculators" className={styles.footerLink}>
+                  Advanced Uses of Percentage Calculators
+                </Link>
+              </li>
             </ul>
           </div>
           

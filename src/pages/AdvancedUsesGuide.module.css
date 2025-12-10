@@ -1,0 +1,1438 @@
+/* AdvancedUsesGuide.module.css */
+.guideContainer {
+  background-color: #00001c;
+  color: #ffffff;
+  min-height: 100vh;
+  padding: 120px 20px 80px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  line-height: 1.6;
+}
+
+.guideCard {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 24px;
+  backdrop-filter: blur(20px);
+  overflow: hidden;
+  opacity: 1;
+  visibility: visible;
+}
+
+.guideHeader {
+  padding: 60px 40px 40px;
+  text-align: center;
+  background: linear-gradient(135deg, rgba(0, 150, 136, 0.15) 0%, rgba(0, 121, 107, 0.15) 100%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.guideTitle {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+ 
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.guideSubtitle {
+  font-size: 1.3rem;
+  opacity: 0.9;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.guideContent {
+  padding: 40px;
+}
+
+.guideSection {
+  margin-bottom: 80px;
+}
+
+.guideSection:last-child {
+  margin-bottom: 0;
+}
+
+.sectionHeading {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #ffffff;
+  opacity: 1;
+  position: relative;
+}
+
+.sectionHeading::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 2px;
+}
+
+.sectionSubtitle {
+  font-size: 1.2rem;
+  opacity: 0.8;
+  margin-bottom: 30px;
+}
+
+.sectionText {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  opacity: 0.9;
+  margin-bottom: 40px;
+}
+
+.professionalOverview {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.overviewCard {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  transition: all 0.3s ease;
+}
+
+.overviewCard:hover {
+  background: rgba(255, 255, 255, 0.07);
+  border-color: rgba(0, 150, 136, 0.3);
+  transform: translateY(-3px);
+}
+
+.overviewIcon {
+  font-size: 2.5rem;
+  flex-shrink: 0;
+}
+
+.overviewContent {
+  flex: 1;
+}
+
+.overviewTitle {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.overviewDescription {
+  font-size: 1rem;
+  line-height: 1.6;
+  opacity: 0.9;
+  margin: 0;
+}
+
+.businessApplications {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.applicationCategory {
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 20px;
+  padding: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.categoryHeader {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.categoryIcon {
+  font-size: 2.5rem;
+}
+
+.categoryTitle {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0;
+}
+
+.formulaComparison {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.formulaCard {
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.formulaCardTitle {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.formulaDisplay {
+  margin-bottom: 25px;
+  padding: 25px;
+  background: rgba(0, 150, 136, 0.1);
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+.formula {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.formulaFraction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formulaNumerator {
+  padding: 8px 16px;
+  border-bottom: 2px solid rgba(57, 0, 150, 0.922);
+  
+}
+
+.formulaDenominator {
+  padding: 8px 16px;
+}
+
+.formulaText {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.formulaExample {
+  background: rgba(255, 255, 255, 0.03);
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.exampleTitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #460096;
+}
+
+.exampleDetail {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.exampleStep {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.criticalInsight {
+  display: flex;
+  gap: 20px;
+  padding: 30px;
+  background: rgba(0, 150, 136, 0.1);
+  border-radius: 16px;
+  border: 1px solid rgba(0, 150, 136, 0.3);
+}
+
+.insightIcon {
+  font-size: 2.5rem;
+  flex-shrink: 0;
+}
+
+.insightContent {
+  flex: 1;
+}
+
+.insightTitle {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.insightDescription {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  opacity: 0.9;
+  margin: 0;
+}
+
+.commissionScenarios {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.scenarioCard {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.scenarioHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  background: linear-gradient(135deg, rgba(0, 150, 136, 0.1) 0%, rgba(0, 121, 107, 0.1) 100%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.scenarioTitle {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0;
+}
+
+.scenarioDifficulty {
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 6px 12px;
+  background: rgba(0, 150, 136, 0.3);
+  border-radius: 20px;
+}
+
+.scenarioContent {
+  padding: 25px;
+}
+
+.scenarioExample {
+  margin-bottom: 25px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+}
+
+.exampleDescription {
+  font-size: 1rem;
+  line-height: 1.6;
+  opacity: 0.9;
+  margin: 0;
+}
+
+.scenarioCalculation {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.calculationSteps {
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+}
+
+.stepsTitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.stepsList {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.stepsList li {
+  padding: 8px 0;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.weightedCalculation {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.calculationLine {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.calculationInsight {
+  padding: 20px;
+  background: rgba(0, 150, 136, 0.1);
+  border-radius: 12px;
+}
+
+.insightText {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.businessTips {
+  margin-top: 40px;
+}
+
+.tipsTitle {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.tipsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.tipItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+}
+
+.tipNumber {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2,  100%);
+  border-radius: 50%;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.tipText {
+  font-size: 1rem;
+  line-height: 1.6;
+  opacity: 0.9;
+  margin: 0;
+}
+
+.educationApplications {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.gradeSystems {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.systemCard {
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+}
+
+.systemTitle {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.conversionExample {
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+}
+
+.gradeScenario {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.scenarioDetails {
+  padding: 15px;
+  background: rgba(0, 150, 136, 0.1);
+  border-radius: 8px;
+}
+
+.scenarioDescription {
+  font-size: 1rem;
+  line-height: 1.6;
+  opacity: 0.9;
+  margin: 0;
+}
+
+.studentPerformance {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.performanceRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.performanceRow:last-child {
+  border-bottom: none;
+}
+
+.performanceLabel {
+  font-size: 1rem;
+}
+
+.performanceValue {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.highlighted {
+  color: #550096;
+  font-size: 1.2rem;
+}
+
+.gradeScaleReference {
+  margin-top: 40px;
+}
+
+.referenceTitle {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.scaleTable {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.tableHeader {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background: linear-gradient(135deg, rgba(0, 150, 136, 0.1) 0%, rgba(0, 121, 107, 0.1) 100%);
+  padding: 20px;
+  font-weight: 600;
+}
+
+.tableRow {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.tableRow:last-child {
+  border-bottom: none;
+}
+
+.tableCell {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.educationTools {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.toolCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 25px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  transition: all 0.3s ease;
+}
+
+.toolCard:hover {
+  background: rgba(255, 255, 255, 0.07);
+  border-color: rgba(0, 150, 136, 0.3);
+  transform: translateY(-3px);
+}
+
+.toolIcon {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.toolContent {
+  flex: 1;
+}
+
+.toolTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #ffffff;
+}
+
+.toolDescription {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  opacity: 0.9;
+  margin: 0;
+}
+
+.learningExercise {
+  margin-top: 40px;
+  padding: 30px;
+  background: rgba(0, 150, 136, 0.1);
+  border-radius: 16px;
+  border: 1px solid rgba(0, 150, 136, 0.3);
+}
+
+.exerciseTitle {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.exerciseScenario {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.scenarioPrompt {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  opacity: 0.9;
+  margin: 0;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+}
+
+.exerciseSolution {
+  padding: 25px;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 12px;
+}
+
+.solutionSteps {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+
+.step {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.stepNumber {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: linear-gradient(135deg, #570096 0%, #470079 100%);
+  border-radius: 50%;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.stepText {
+  font-size: 1rem;
+  line-height: 1.6;
+  opacity: 0.9;
+  margin: 0;
+  padding-top: 5px;
+}
+
+.solutionInsight {
+  padding: 20px;
+  background: rgba(0, 150, 136, 0.2);
+  border-radius: 12px;
+}
+
+.insightText {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.healthApplications {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.nutritionTracking {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.trackingMethod {
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+}
+
+.methodTitle {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.methodExample {
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+}
+
+.nutritionPlan {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.planHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(135deg, rgba(0, 150, 136, 0.1) 0%, rgba(0, 121, 107, 0.1) 100%);
+}
+
+.planTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0;
+}
+
+.planCalories {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #5f0096;
+}
+
+.macroBreakdown {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.macroItem {
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.macroLabel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.macroName {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.macroPercentage {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #500096;
+}
+
+.macroCalculation {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.calculation {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.conversion {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+  font-weight: 600;
+}
+
+.nutritionLabel {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.labelHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(135deg, rgba(0, 150, 136, 0.1) 0%, rgba(0, 121, 107, 0.1) 100%);
+}
+
+.labelTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0;
+}
+
+.labelServing {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.labelContent {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.labelItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.labelItem:last-child {
+  border-bottom: none;
+}
+
+.itemName {
+  font-size: 1rem;
+}
+
+.itemValues {
+  display: flex;
+  gap: 20px;
+}
+
+.itemAmount {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.itemPercent {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #5f0096;
+  min-width: 60px;
+  text-align: right;
+}
+
+.labelInsight {
+  padding: 20px;
+  background: rgba(0, 150, 136, 0.1);
+  border-top: 1px solid rgba(0, 150, 136, 0.2);
+}
+
+.nutritionTips {
+  margin-top: 40px;
+}
+
+.tipsTitle {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.tipsList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.tip {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+}
+
+.tipIcon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.tipText {
+  font-size: 1rem;
+  line-height: 1.6;
+  opacity: 0.9;
+  margin: 0;
+}
+
+.fitnessMetrics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.metricCard {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.metricHeader {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 25px;
+  background: linear-gradient(135deg, rgba(0, 150, 136, 0.1) 0%, rgba(0, 121, 107, 0.1) 100%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.metricIcon {
+  font-size: 2rem;
+}
+
+.metricTitle {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0;
+}
+
+.metricContent {
+  padding: 25px;
+}
+
+.progressExample {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.progressData {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+}
+
+.dataRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dataRow:last-child {
+  border-bottom: none;
+}
+
+.dataLabel {
+  font-size: 1rem;
+}
+
+.dataValue {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.progressCalculation {
+  padding: 20px;
+  background: rgba(0, 150, 136, 0.1);
+  border-radius: 12px;
+}
+
+.fitnessGoals {
+  margin-top: 40px;
+}
+
+.goalsTitle {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.goalsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.goalCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 25px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  transition: all 0.3s ease;
+}
+
+.goalCard:hover {
+  background: rgba(255, 255, 255, 0.07);
+  border-color: rgba(0, 150, 136, 0.3);
+  transform: translateY(-3px);
+}
+
+.goalIcon {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.goalName {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #ffffff;
+}
+
+.goalDescription {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  opacity: 0.9;
+  margin: 0;
+}
+
+.healthIntegration {
+  margin-top: 40px;
+}
+
+.integrationTitle {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.dashboardExample {
+  padding: 30px;
+  background: rgba(0, 150, 136, 0.1);
+  border-radius: 16px;
+  border: 1px solid rgba(0, 150, 136, 0.3);
+}
+
+.dashboardMetrics {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+.dashboardMetric {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.metricLabel {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.metricBar {
+  height: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+}
+
+.barFill {
+  height: 100%;
+  background: linear-gradient(135deg, #500096 0%, #4f0079 100%);
+  border-radius: 15px;
+  transition: width 1s ease;
+}
+
+.metricValue {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.dashboardInsight {
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+}
+
+.advantageFeatures {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.featureCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  transition: all 0.3s ease;
+}
+
+.featureCard:hover {
+  background: rgba(255, 255, 255, 0.07);
+  border-color: rgba(0, 150, 136, 0.3);
+  transform: translateY(-5px);
+}
+
+.featureIcon {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.featureContent {
+  flex: 1;
+}
+
+.featureTitle {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.featureDescription {
+  font-size: 1rem;
+  line-height: 1.6;
+  opacity: 0.9;
+  margin: 0;
+}
+
+.ctaSection {
+  text-align: center;
+  padding: 40px;
+  background: linear-gradient(135deg, rgba(0, 150, 136, 0.1) 0%, rgba(0, 121, 107, 0.1) 100%);
+  border-radius: 16px;
+  border: 1px solid rgba(0, 150, 136, 0.2);
+}
+
+.ctaTitle {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  background: linear-gradient(135deg, #500096 0%, #320079 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ctaDescription {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  opacity: 0.9;
+  max-width: 800px;
+  margin: 0 auto 30px;
+}
+
+.ctaBenefits {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.benefit {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.benefitIcon {
+  font-size: 1.5rem;
+  color: #370096;
+}
+
+.benefitText {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .guideContainer {
+    padding: 100px 15px 60px;
+  }
+
+  .guideHeader {
+    padding: 40px 20px 30px;
+  }
+
+  .guideTitle {
+    font-size: 2.2rem;
+  }
+
+  .guideSubtitle {
+    font-size: 1.1rem;
+  }
+
+  .guideContent {
+    padding: 30px 20px;
+  }
+
+  .guideSection {
+    margin-bottom: 60px;
+  }
+
+  .sectionHeading {
+    font-size: 1.8rem;
+  }
+
+  .sectionText {
+    font-size: 1.05rem;
+  }
+
+  .professionalOverview {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .overviewCard {
+    padding: 25px;
+  }
+
+  .applicationCategory {
+    padding: 25px;
+  }
+
+  .formulaComparison {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .formulaCard {
+    padding: 25px;
+  }
+
+  .commissionScenarios {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .criticalInsight {
+    flex-direction: column;
+    text-align: center;
+    padding: 25px;
+  }
+
+  .gradeSystems {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .scaleTable {
+    overflow-x: auto;
+  }
+
+  .tableHeader, .tableRow {
+    grid-template-columns: repeat(4, 200px);
+  }
+
+  .educationTools {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .nutritionTracking {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .fitnessMetrics {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .goalsGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .advantageFeatures {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .ctaSection {
+    padding: 30px 20px;
+  }
+
+  .ctaTitle {
+    font-size: 1.7rem;
+  }
+
+  .ctaDescription {
+    font-size: 1.1rem;
+  }
+
+  .ctaBenefits {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .guideContainer {
+    padding: 90px 10px 40px;
+  }
+
+  .guideHeader {
+    padding: 30px 15px 25px;
+  }
+
+  .guideTitle {
+    font-size: 1.9rem;
+  }
+
+  .guideSubtitle {
+    font-size: 1rem;
+  }
+
+  .guideContent {
+    padding: 25px 15px;
+  }
+
+  .guideSection {
+    margin-bottom: 50px;
+  }
+
+  .sectionHeading {
+    font-size: 1.6rem;
+  }
+
+  .overviewCard {
+    padding: 20px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .applicationCategory {
+    padding: 20px;
+  }
+
+  .categoryHeader {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+
+  .formula {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .goalsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .tipsGrid, .tipsList {
+    grid-template-columns: 1fr;
+  }
+
+  .tableHeader, .tableRow {
+    grid-template-columns: repeat(4, 150px);
+  }
+
+  .ctaSection {
+    padding: 25px 15px;
+  }
+
+  .ctaTitle {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .guideContainer {
+    padding: 110px 20px 70px;
+  }
+
+  .guideCard {
+    max-width: 950px;
+  }
+
+  .guideHeader {
+    padding: 50px 30px 35px;
+  }
+
+  .guideContent {
+    padding: 35px 30px;
+  }
+}
