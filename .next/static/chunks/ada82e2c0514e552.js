@@ -1,0 +1,9 @@
+__turbopack_load_page_chunks__("/tip-calculators-stress-free-dining-and-service-payments", [
+  "static/chunks/851bc338b6024f6d.js",
+  "static/chunks/0701f4a9fab4ee8c.js",
+  "static/chunks/0b7c79a949480d84.js",
+  "static/chunks/ad3dd1ea0b0a97b9.js",
+  "static/chunks/9572eb87d39ab958.js",
+  "static/chunks/c99023768aae881b.css",
+  "static/chunks/turbopack-89a61983b6e16167.js"
+])

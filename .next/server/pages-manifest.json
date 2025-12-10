@@ -1,0 +1,17 @@
+{
+  "/": "pages/index.html",
+  "/404": "pages/404.html",
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/_error": "pages/_error.js",
+  "/about": "pages/about.html",
+  "/advanced-uses-of-percentage-calculators": "pages/advanced-uses-of-percentage-calculators.html",
+  "/contact": "pages/contact.html",
+  "/discount-calculator": "pages/discount-calculator.html",
+  "/discount-calculators-save-more-while-shopping": "pages/discount-calculators-save-more-while-shopping.html",
+  "/percentage-calculator": "pages/percentage-calculator.html",
+  "/percentage-calculators-beyond-discounts-and-tips": "pages/percentage-calculators-beyond-discounts-and-tips.html",
+  "/privacy-policy": "pages/privacy-policy.html",
+  "/tip-calculator": "pages/tip-calculator.html",
+  "/tip-calculators-stress-free-dining-and-service-payments": "pages/tip-calculators-stress-free-dining-and-service-payments.html"
+}

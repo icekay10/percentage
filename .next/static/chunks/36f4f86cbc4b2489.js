@@ -1,0 +1,9 @@
+__turbopack_load_page_chunks__("/percentage-calculators-beyond-discounts-and-tips", [
+  "static/chunks/851bc338b6024f6d.js",
+  "static/chunks/6d7a8bf63a9a7a9e.js",
+  "static/chunks/0b7c79a949480d84.js",
+  "static/chunks/ad3dd1ea0b0a97b9.js",
+  "static/chunks/9572eb87d39ab958.js",
+  "static/chunks/bcbef1024e2208ae.css",
+  "static/chunks/turbopack-48cde14235e45f7f.js"
+])

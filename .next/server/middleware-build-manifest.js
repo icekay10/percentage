@@ -1,0 +1,127 @@
+globalThis.__BUILD_MANIFEST = {
+  "pages": {
+    "/": [
+      "static/chunks/4ed362fb0394c57c.js",
+      "static/chunks/9572eb87d39ab958.js",
+      "static/chunks/0b7c79a949480d84.js",
+      "static/chunks/ad3dd1ea0b0a97b9.js",
+      "static/chunks/ea738fe1c06929c3.css",
+      "static/chunks/turbopack-616fcbc640a604e2.js"
+    ],
+    "/404": [
+      "static/chunks/6891e1c069c51e35.js",
+      "static/chunks/9572eb87d39ab958.js",
+      "static/chunks/ad3dd1ea0b0a97b9.js",
+      "static/chunks/0b7c79a949480d84.js",
+      "static/chunks/0ffc1e5981682d72.css",
+      "static/chunks/turbopack-948b8f203933628e.js"
+    ],
+    "/_app": [
+      "static/chunks/828d37fd91f217a2.js",
+      "static/chunks/9572eb87d39ab958.js",
+      "static/chunks/ad3dd1ea0b0a97b9.js",
+      "static/chunks/0b7c79a949480d84.js",
+      "static/chunks/5426e28dff3d7cc7.css",
+      "static/chunks/turbopack-156f63d8c7c40e4e.js"
+    ],
+    "/_error": [
+      "static/chunks/09c00549b1328340.js",
+      "static/chunks/9572eb87d39ab958.js",
+      "static/chunks/0b7c79a949480d84.js",
+      "static/chunks/ad3dd1ea0b0a97b9.js",
+      "static/chunks/turbopack-45e32bb6cb900f82.js"
+    ],
+    "/about": [
+      "static/chunks/bf50e0ff5bfe003e.js",
+      "static/chunks/9572eb87d39ab958.js",
+      "static/chunks/ad3dd1ea0b0a97b9.js",
+      "static/chunks/0b7c79a949480d84.js",
+      "static/chunks/0ffc1e5981682d72.css",
+      "static/chunks/turbopack-fad3b7427a6179b9.js"
+    ],
+    "/advanced-uses-of-percentage-calculators": [
+      "static/chunks/851bc338b6024f6d.js",
+      "static/chunks/9572eb87d39ab958.js",
+      "static/chunks/0b7c79a949480d84.js",
+      "static/chunks/1e288151ed6624b3.js",
+      "static/chunks/ad3dd1ea0b0a97b9.js",
+      "static/chunks/ff784b41b604f6d6.css",
+      "static/chunks/turbopack-c053ef47b117e94c.js"
+    ],
+    "/contact": [
+      "static/chunks/fe73bd1be8eb7d44.js",
+      "static/chunks/9572eb87d39ab958.js",
+      "static/chunks/ad3dd1ea0b0a97b9.js",
+      "static/chunks/0b7c79a949480d84.js",
+      "static/chunks/3f32bc95acd3dfec.css",
+      "static/chunks/turbopack-9a8f96e54d5d38bf.js"
+    ],
+    "/discount-calculator": [
+      "static/chunks/063db16c47faa7a9.js",
+      "static/chunks/9572eb87d39ab958.js",
+      "static/chunks/0b7c79a949480d84.js",
+      "static/chunks/ad3dd1ea0b0a97b9.js",
+      "static/chunks/5094136684921e3a.css",
+      "static/chunks/turbopack-f628caa959c31339.js"
+    ],
+    "/discount-calculators-save-more-while-shopping": [
+      "static/chunks/851bc338b6024f6d.js",
+      "static/chunks/5d8e8ea8f605a904.js",
+      "static/chunks/0b7c79a949480d84.js",
+      "static/chunks/ad3dd1ea0b0a97b9.js",
+      "static/chunks/9572eb87d39ab958.js",
+      "static/chunks/bc8174b95921335d.css",
+      "static/chunks/turbopack-367ac7165eb1fe16.js"
+    ],
+    "/percentage-calculator": [
+      "static/chunks/d089e464093e0af1.js",
+      "static/chunks/9572eb87d39ab958.js",
+      "static/chunks/0b7c79a949480d84.js",
+      "static/chunks/ad3dd1ea0b0a97b9.js",
+      "static/chunks/d79812366184cf92.css",
+      "static/chunks/turbopack-c568081b4fdc7b32.js"
+    ],
+    "/percentage-calculators-beyond-discounts-and-tips": [
+      "static/chunks/851bc338b6024f6d.js",
+      "static/chunks/6d7a8bf63a9a7a9e.js",
+      "static/chunks/0b7c79a949480d84.js",
+      "static/chunks/ad3dd1ea0b0a97b9.js",
+      "static/chunks/9572eb87d39ab958.js",
+      "static/chunks/bcbef1024e2208ae.css",
+      "static/chunks/turbopack-48cde14235e45f7f.js"
+    ],
+    "/privacy-policy": [
+      "static/chunks/f102a5e335d87290.js",
+      "static/chunks/9572eb87d39ab958.js",
+      "static/chunks/ad3dd1ea0b0a97b9.js",
+      "static/chunks/0b7c79a949480d84.js",
+      "static/chunks/dfa3dae169d51fe2.css",
+      "static/chunks/turbopack-9c1c7b1898825b0c.js"
+    ],
+    "/tip-calculator": [
+      "static/chunks/f632e5c4dbb17d42.js",
+      "static/chunks/9572eb87d39ab958.js",
+      "static/chunks/0b7c79a949480d84.js",
+      "static/chunks/ad3dd1ea0b0a97b9.js",
+      "static/chunks/33753cdf49c312df.css",
+      "static/chunks/turbopack-624fdc7cf6b1504c.js"
+    ],
+    "/tip-calculators-stress-free-dining-and-service-payments": [
+      "static/chunks/851bc338b6024f6d.js",
+      "static/chunks/0701f4a9fab4ee8c.js",
+      "static/chunks/0b7c79a949480d84.js",
+      "static/chunks/ad3dd1ea0b0a97b9.js",
+      "static/chunks/9572eb87d39ab958.js",
+      "static/chunks/c99023768aae881b.css",
+      "static/chunks/turbopack-89a61983b6e16167.js"
+    ]
+  },
+  "devFiles": [],
+  "polyfillFiles": [],
+  "lowPriorityFiles": [],
+  "rootMainFiles": []
+};
+globalThis.__BUILD_MANIFEST.lowPriorityFiles = [
+"/static/" + process.env.__NEXT_BUILD_ID + "/_buildManifest.js",
+"/static/" + process.env.__NEXT_BUILD_ID + "/_ssgManifest.js"
+];
