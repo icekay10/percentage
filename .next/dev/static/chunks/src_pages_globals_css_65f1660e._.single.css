@@ -1,0 +1,30 @@
+/* [project]/src/pages/globals.css [client] (css) */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  color: #fff;
+  width: 100%;
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background: #00001c !important;
+}
+
+.app-wrapper {
+  background: #00001c;
+  width: 100%;
+  min-height: 100vh;
+}
+
+body, div, section, main, header, footer, nav, article, aside {
+  background: #00001c !important;
+}
+
+* {
+  background-color: inherit;
+}
+
+/*# sourceMappingURL=src_pages_globals_css_65f1660e._.single.css.map*/
